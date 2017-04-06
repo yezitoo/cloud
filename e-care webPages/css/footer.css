@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+footer{
+	width:100%;
+	background:#333;
+	overflow:hidden;
+}
+footer.content{
+	width:1194px;
+	background:#ccc;
+	margin:0 auto;
+}
+.partner{
+	
+}
+

@@ -1,0 +1,346 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	font-family:"Microsoft YaHei","微软雅黑";
+ 	font-size: 100%;
+}
+body{
+	margin:0;
+	background-color:#fff;
+}
+ul{
+	margin:0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+
+.e-care_introduction{
+	width:100%;
+}
+.title{
+	text-align:center;
+	padding-bottom:80px;
+}
+.theFirst_title{
+	padding-bottom:0;
+}
+
+/* what */
+.e-care_introduction .what{
+	width:1194px;
+	margin: 0 auto;
+}
+.e-care_introduction .what p{
+	font-size:26px;
+	font-weight:lighter;
+	color:#333;
+	padding:40px 0;
+}
+.e-care_introduction .what ul{
+	margin:0;
+	padding-left:72px;	
+}
+.e-care_introduction .what ul li{
+	float:left;
+	padding-right:174px;
+}
+.e-care_introduction .what ul li:last-child{
+	padding-right:0;
+}
+
+/* why */
+.e-care_introduction .why{
+	overflow:hidden;
+	width:100%;
+	margin:140px 0;
+}
+.e-care_introduction .why ul{
+	margin:140px 0;
+	padding:0;
+}
+.e-care_introduction .why ul li{
+	width:25%;
+	float:left;
+}
+.e-care_introduction .why ul li:last-child{
+	padding-right:0;
+}
+.e-care_introduction .why ul li.title_box{
+	background:url(../images/e-care_introduce_pic_06.png) no-repeat;
+	height:720px;
+	position:relative;
+}
+.e-care_introduction .why ul li.title_box img{
+	width:100%;
+	position:absolute;
+	bottom:40%;
+}
+.e-care_introduction .why p{
+	position:absolute;
+	top:60%;
+	left:10%;
+	font-size:26px;
+	font-weight:lighter;
+	color:#333;
+	line-height:52px;
+}
+
+/* how */
+.e-care_introduction .how{
+	overflow:hidden;
+	width:1194px;
+	margin: 140px auto;
+}
+.e-care_introduction .how ul{
+	margin:0;
+	padding:0;
+}
+.e-care_introduction .how ul li.title_box{
+	position:relative;
+	width:580px;
+	height:510px;
+	float:left;
+	margin-right:30px;
+	background:url(../images/e-care_introduce_pic_08.png) no-repeat;
+}
+.e-care_introduction .how ul li.title_box img{
+	position:absolute;
+	bottom:0;
+	margin-left:50px;
+}
+.e-care_introduction .how ul.right_list{
+	margin:0;
+	padding:0;
+}
+.e-care_introduction .how ul.right_list li{
+	float:left;
+	width:276px;
+	height:244px;
+	background-color:#0072bb;
+	margin:0 30px 30px 0;
+}
+.e-care_introduction .how ul.right_list li:first-child{
+	background-color:#6dd1eb;
+}
+.e-care_introduction .how ul.right_list li.theSecond_list{
+	margin:0 0 30px 0;
+}
+.e-care_introduction .how ul.right_list li:last-child{
+	margin:0;
+	width:582px;
+	height:236px;
+	background-color:#7cc576;
+}
+.e-care_introduction .how ul.right_list li img{
+	margin:52px 108px 20px 108px;
+	
+}
+.e-care_introduction .how ul.right_list li:last-child img{
+	float:left;
+	margin:88px 30px 88px 60px;
+}
+.e-care_introduction .how ul.right_list li p{
+	text-align:center;
+	margin:0;
+	padding:0;
+	color:#fff;
+	font-size:16px;
+	font-weight:lighter;
+	line-height:30px;
+}
+.e-care_introduction .how ul.right_list li p.tit{
+	font-size:22px;
+	font-weight:normal;
+}
+.e-care_introduction .how ul.right_list li:last-child p.tit{
+	margin-top:88px;
+}
+.e-care_introduction .how ul.right_list  li:last-child p{
+	text-align:left;
+	
+}
+
+
+/* who */
+.e-care_introduction .who{
+	overflow:hidden;
+	width:1194px;
+	margin: 140px auto;
+	padding:0;
+}
+.e-care_introduction .who ul{
+	margin:0;
+	padding:0;
+}
+.e-care_introduction .who ul li{
+	float:left;
+	margin-right:30px;
+}
+.e-care_introduction .who ul li:last-child{
+	margin-right:0;
+}
+.e-care_introduction .who ul li p{
+	text-align:center;
+	font-size:22px;
+	font-weight:lighter;
+	color:#333;
+	line-height:33px;
+	
+}
+
+/* where */
+.e-care_introduction .where{
+	overflow:hidden;
+	width:1194px;
+	margin: 140px auto;
+	padding:0;
+}
+.e-care_introduction .where ul{
+	margin:0;
+	padding:0;
+}
+.e-care_introduction .where ul li{
+	position:relative;
+	float:left;
+	margin-right:78px;
+}
+.e-care_introduction .where ul li:last-child{
+	margin-right:0;
+}
+.e-care_introduction .where ul li p{
+	text-align:center;
+	font-size:22px;
+	font-weight:lighter;
+	color:#333;
+	line-height:33px;
+}
+.e-care_introduction .where ul li img.arrow{
+	position:absolute;
+	bottom:36px;
+	left:240px;
+}
+
+@media only screen and (max-width :1194px) {
+	/* what */
+	.e-care_introduction .what{
+	width:940px;
+	margin: 0 auto;
+    }
+	.e-care_introduction .what p{
+	font-size:22px;
+	font-weight:lighter;
+	color:#333;
+	padding:40px 0;
+    }
+    .e-care_introduction .what ul{
+	margin:0;
+	padding:0;	
+    }
+    .e-care_introduction .what ul li{
+	float:left;
+	padding-right:140px;
+    }
+	.e-care_introduction .what ul li img{
+	width:220px;
+	height：:220px;
+    }
+    .e-care_introduction .what ul li:last-child{
+	padding-right:0;
+    }
+	
+	/* why */
+    .e-care_introduction .why ul li.title_box{
+	background:url(../images/e-care_introduce_pic_06.png) no-repeat;
+	height:680px;
+	position:relative;
+    }
+    .e-care_introduction .why ul li.title_box img{
+	width:100%;
+    }
+    .e-care_introduction .why p{
+	font-size:20px;
+    }
+	
+    /* how */
+   .e-care_introduction .how{
+	width:940px;
+	margin: 0 auto;
+    }
+.e-care_introduction .how ul{
+	margin:0;
+	padding:0;
+}
+.e-care_introduction .how ul li.title_box{
+	position:relative;
+	width:460px;
+	height:510px;
+	float:left;
+	margin-right:20px;
+}
+.e-care_introduction .how ul li.title_box img{
+	width:100%;
+	margin-left:0;
+}
+.e-care_introduction .how ul.right_list{
+	margin:0;
+	padding:0;
+}
+.e-care_introduction .how ul.right_list li{
+	float:left;
+	width:220px;
+	height:244px;
+	background-color:#0072bb;
+	margin:0 20px 20px 0;
+}
+.e-care_introduction .how ul.right_list li:first-child{
+	background-color:#6dd1eb;
+}
+.e-care_introduction .how ul.right_list li.theSecond_list{
+	margin:0 0 30px 0;
+}
+.e-care_introduction .how ul.right_list li:last-child{
+	margin:0;
+	width:582px;
+	height:236px;
+	background-color:#7cc576;
+}
+.e-care_introduction .how ul.right_list li img{
+	margin:52px 108px 20px 108px;
+	
+}
+.e-care_introduction .how ul.right_list li:last-child img{
+	float:left;
+	margin:88px 30px 88px 60px;
+}
+.e-care_introduction .how ul.right_list li p{
+	text-align:center;
+	margin:0;
+	padding:0;
+	color:#fff;
+	font-size:16px;
+	font-weight:lighter;
+	line-height:30px;
+}
+.e-care_introduction .how ul.right_list li p.tit{
+	font-size:22px;
+	font-weight:normal;
+}
+.e-care_introduction .how ul.right_list li:last-child p.tit{
+	margin-top:88px;
+}
+.e-care_introduction .how ul.right_list  li:last-child p{
+	text-align:left;
+	
+}
+}
+@media only screen and (max-width :960px) {
+	
+}
+@media only screen and (max-width :768px) {
+	
+}

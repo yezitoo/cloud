@@ -1,0 +1,283 @@
+
+html{
+	font-family:"Microsoft YaHei","微软雅黑";
+ 	font-size: 100%;
+}
+body{
+	margin:0;
+	background-color:#eaedf2;
+}
+ul{
+	margin:0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+
+/*navigation bar*/
+#main{
+	background-color:#fff;
+	
+}
+nav{
+	width:100%;
+	border-bottom:solid #6dd1eb 0.25em;
+}
+nav #linkBar{
+	overflow:hidden;
+	width:100%;
+	background-color:#333;
+}
+nav #linkBar ul{
+	padding:0;
+	width:62.1875%;
+	margin: 0 auto;
+}
+nav #linkBar ul li{
+	float:left;
+}
+nav #linkBar ul li:last-child{
+	float:right;
+	color:#ccc;
+	font-size:13px;
+	padding-top:13px;
+}
+nav #navBar{
+	width:100%;
+	
+}
+nav #navBar .navList{
+	overflow:hidden;
+ 	padding:0;
+	width:1194px;
+	margin:0 auto; 
+	background:url(../images/e-care_logo.png) no-repeat;
+}
+nav #navBar ul{
+ 	padding:0;
+	float:right;
+}
+nav #navBar ul li{
+ 	display:inline-block;
+ 	padding:40px 40px 40px 0;
+}
+nav #navBar ul li:last-child{
+	padding-right:0;
+}
+ nav #navBar ul li a{
+ 	text-decoration: none;
+ 	color:#333;
+ 	font-size: 1em;
+ }
+
+#hiddenNav{
+	display:none;
+}
+#menuIcon{
+	text-decoration: none;
+}
+
+
+/*section*/
+article{
+	width:100%;
+	background-color:#eaedf2;
+}
+article .grid{
+	width:1194px;
+	margin:0 auto;
+}
+article .grid .item{
+	background-color: #fff;
+	float:left;
+	width:378px;
+	margin:0 30px 30px 0;
+}
+article .grid .list_03,article .grid .list_06{
+	margin-right:0;
+}
+article .grid .item h3{
+	color:#2484fb;
+	padding:0 20px;
+	font-weight:normal;
+}
+article .grid .item p{
+	font-size:14px;
+	color:#333;
+	line-height:28px;
+	padding:0 20px;
+}
+article .grid .item .enter{
+	float:right;
+	padding:0 20px 20px 0;
+}
+
+/*news*/
+.news article{
+	width:100%;
+	background:url(../images/background.png) repeat;
+	padding:140px 0;
+	clear:both;
+}
+article .content{
+	width:1194px;
+	margin:0 auto;
+}
+article .content .main_title{
+	text-align:center;
+}
+article .content .item{
+	overflow:hidden;
+	width:1178px;
+	border:solid #e0e0e0 8px;
+	border-radius:20px;
+	margin-bottom:40px;
+}
+article .content .item ul{
+	float:left;	
+	width:620px;
+	margin:0;
+	padding:0;
+}
+article .content .item ul li{
+	margin-left:40px;
+	padding:20px 10px 20px 0;
+	border-bottom:dotted #ccc 1px;
+}
+article .content .item ul li:first-child{
+	border-bottom:solid #2484fb 4px;
+	padding-top:40px;
+	font-size:22px;
+	color:#333;
+}
+article .content .item ul li:last-child{
+	border-bottom:none;
+}
+article .content .item ul li:last-child button{
+	background-color:#6dd1eb;
+	border:none;
+	padding:10px 30px;
+	border-radius:6px;
+	color:#fff;
+}
+article .content .item ul li a{
+	font-size:14px;
+	height:28px;
+	color:#333;
+}
+article .content .item img{
+	float:left;
+	padding:40px 0 40px 40px;	
+}
+
+@media only screen and (max-width :768px) {
+	ul#hiddenNav{
+		margin:0;
+		display: block;
+		border-bottom: 1px #9c9c9c solid;
+	}
+	ul#hiddenNav li{
+		display:inline-block;
+	}
+	ul#hiddenNav li.e-care_logo{
+		padding:0;
+	}
+	.burger_menu{
+		float:right;
+	}
+	
+	nav{
+	background-color:#333;
+    }
+	nav #linkBar{
+		display:none;
+	}
+	nav #navBar ul li.logo{
+		display:none;
+	}
+	nav #navBar ul li{
+		width:100%;
+		text-align:center;
+		padding:10px 0;
+	}
+	nav #navBar ul li:hover{
+		background-color: #555;
+	}
+	nav #navBar ul li a{
+		color:#fff;
+	}
+	.banner img{
+	max-width: 100%;
+    }
+	
+	article .grid{
+	width:100%;
+	background-color:#eaedf2;
+    }
+	article .grid .item{
+	width:100%;
+	background-color: #fff;
+	margin:0 0 16px 0;
+    }
+	article .grid .item .pic{
+	width:100%;
+    }
+	article .grid .item h3{
+	padding:0 16px;
+    }
+	article .grid .item p{
+	padding:0 16px;
+    }
+    article .grid .item .enter{
+	padding:0 16px 16px 0;
+    }
+	
+	article .content{
+	width:100%;
+	background-color:#fff;
+    }
+	article .content .item{
+	width:100%;
+	border:none;
+	border-bottom:solid #666 1px;
+	border-radius:0;
+    }
+	article .content .item .subheading{
+	display:inline-block;
+	width:100%;
+	background-color:#6dd1eb;
+    }
+    article .content .item ul{
+	width:100%;
+	margin:0;
+	padding:0;
+	border:none;
+	background-color:#fff;
+    }
+	article .content .item ul li{
+	margin:0 16px;
+	padding:20px 0;
+	border-bottom:solid #ccc 1px;
+    }
+	article .content .item ul li:last-child{
+	float:right;
+    }
+	article .content .item img{
+	padding:0;
+	margin:0 16px;
+	width:91%;	
+    }
+}
+
+@media screen and (max-width: 640px){
+
+}
+@media screen and (max-width: 480px){
+	.grid .item{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+}

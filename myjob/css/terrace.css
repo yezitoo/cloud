@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: 微软雅黑;
+    position: relative;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:1025px) {
+    .container {
+        padding-bottom: 510px;
+        color: #333;
+    }
+    article {
+        background-color: #eaedf2;
+        position: relative;
+    }
+    .part1 {
+        position: relative;
+    }
+    .part1 div:nth-child(1) {
+        width: 100%;
+    }
+    .part1 img {
+        width: 100%;
+    }
+    .part1 div:nth-child(2) {
+        position: absolute;
+        top: 72px;
+        left: 50%;
+        margin-left: -91px;
+        color: #fff;
+        width: 182px;
+        font-size: 26px;
+    }
+    .part1 hr {
+        width: 80px;
+        margin: 0 auto;
+        margin-top: 22px;
+        border: 2px solid #fff;
+    }
+    .part2 {
+        width: 990px;
+        margin: 0 auto;
+        position: relative;
+        top: -230px;
+        background-color: #fff;
+    }
+    .part2 ul {
+        width: 100%;
+        padding: 0px 0px 110px 0px;
+    }
+    .part2 ul li {
+        width: 100%;
+        list-style: none;
+        overflow: auto;
+        overflow-y: hidden;
+        padding-top: 110px;
+    }
+    .part2 .right_f {
+        float: left;
+        width: 50%;
+    }
+    .part2 .right_s {
+        display: none;
+    }
+    .part2 .left {
+        float: left;
+        width: 50%;
+        padding: 0px 25px;
+        box-sizing: border-box;
+    }
+    .part2 hr {
+        width: 60px;
+        border: 2px solid #2484fb;
+        margin-top: 20px;
+    }
+    .part2 .left p:nth-child(1) {
+        font-size: 32px;
+    }
+    .left p:nth-child(3) {
+        margin-top: 20px;
+        letter-spacing: 1px;
+    }
+    .left p:nth-child(4) {
+        letter-spacing: 1px;
+    }
+    .part2 p {
+        line-height: 30px;
+        font-size: 16px;
+    }
+    .part2 .dis {
+        margin-top: 20px;
+    }
+    .code {
+        height: 115px;
+        margin-top: 10px;
+        display: flex;
+        align-items: flex-end;
+    }
+    .code div {
+        float: left;
+        width: 115px;
+        height: 115px;
+    }
+    .code div img {
+        width: 100%;
+    }
+    .code span {
+        display: inline-block;
+        float: left;
+        color: #2484fb;
+    }
+    .right_f img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .container {
+        padding-bottom: 460px;
+    }
+    article {
+        background-color: #eaedf2;
+        position: relative;
+    }
+    .part1 {
+        position: relative;
+    }
+    .part1 div:nth-child(1) {
+        width: 100%;
+    }
+    .part1 img {
+        width: 100%;
+    }
+    .part1 div:nth-child(2) {
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        margin-left: -91px;
+        color: #fff;
+        width: 182px;
+        font-size: 26px;
+    }
+    .part1 hr {
+        width: 80px;
+        margin: 0 auto;
+        margin-top: 22px;
+        border: 2px solid #fff;
+    }
+    .part2 {
+        width: 720px;
+        margin: 0 auto;
+        position: relative;
+        top: -75px;
+        background-color: #fff;
+    }
+    .part2 ul {
+        width: 100%;
+        padding: 0px 0px 50px 0px;
+    }
+    .part2 ul li {
+        width: 100%;
+        list-style: none;
+        overflow: auto;
+        overflow-y: hidden;
+        padding-top: 50px;
+        /*display: flex;
+        align-items: center;*/
+    }
+    .part2 .right_f {
+        float: left;
+        width: 50%;
+    }
+    .part2 .right_s {
+        display: none;
+    }
+    .part2 .left {
+        float: left;
+        width: 50%;
+        padding: 0px 13px;
+        box-sizing: border-box;
+    }
+    .part2 hr {
+        width: 60px;
+        border: 2px solid #2484fb;
+        margin-top: 14px;
+    }
+    .part2 .left p:nth-child(1) {
+        font-size: 24px;
+    }
+    .left p:nth-child(3) {
+        margin-top: 20px;
+        /*letter-spacing:2px;*/
+    }
+    .left p:nth-child(4) {
+        /*letter-spacing:1px;*/
+    }
+    .part2 p {
+        line-height: 28px;
+        font-size: 14px;
+    }
+    .part2 .dis {
+        margin-top: 20px;
+    }
+    .code {
+        height: 115px;
+        margin-top: 10px;
+        display: flex;
+        align-items: flex-end;
+    }
+    .code div {
+        float: left;
+        width: 115px;
+        height: 115px;
+    }
+    .code div img {
+        width: 100%;
+    }
+    .code span {
+        display: inline-block;
+        float: left;
+        color: #2484fb;
+    }
+    .right_f img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .container {
+        padding-bottom: 23.75rem;
+    }
+    article {
+        background-color: #fff;
+    }
+    .part1 {
+        width: 19rem;
+        margin: 0 auto;
+        padding-top: 1rem;
+    }
+    .part1 div:nth-child(1) {
+        display: none;
+    }
+    .part1 div:nth-child(2) {
+        margin: 0 auto;
+        width: 12rem;
+        font-size: 1.625rem;
+        color: #2484fb;
+    }
+    .part1 hr {
+        width: 3rem;
+        margin: 0 auto;
+        border: 0.2rem solid #2484fb;
+        margin-top: 0.5rem;
+    }
+    .part2 {
+        width: 19rem;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+    .part2 ul {
+        width: 19rem;
+        padding: 1rem 0rem 1.2rem 0rem;
+    }
+    .part2 ul li {
+        list-style: none;
+        overflow: auto;
+        overflow-y: hidden;
+        padding: 1rem 0rem;
+        border-bottom: 0.0625rem solid #333;
+    }
+    .part2 .right_f {
+        display: none;
+        width: 9.5rem;
+    }
+    .part2 .left {
+        box-sizing: border-box;
+    }
+    .part2 hr {
+        width: 3.0625rem;
+        border: 0.1rem solid #2484fb;
+        margin-top: 0.5rem;
+    }
+    .part2 .left p:nth-child(1) {
+        font-size: 1.2rem;
+    }
+    .left p:nth-child(3) {
+        margin-top: 0.8rem;
+        letter-spacing: 0.0625rem;
+    }
+    .left p:nth-child(4) {
+        letter-spacing: 0.0625rem;
+    }
+    .part2 p {
+        line-height: 1.5rem;
+        font-size: 0.875rem;
+    }
+    .code {
+        height: 6.8rem;
+        display: flex;
+        align-items: flex-end;
+    }
+    .code div {
+        float: left;
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+    .code div img {
+        width: 100%;
+    }
+    .code span {
+        display: inline-block;
+        float: left;
+        color: #2484fb;
+    }
+    .right_s img {
+        width: 100%;
+    }
+}

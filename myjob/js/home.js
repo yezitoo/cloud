@@ -15,5 +15,7 @@ if (dewidth <= 1920 && dewidth >= 1620) {
 
 // 本地存储index坐标
 $(".news1_r3 .more").each(function(index, item) {
-    localStorage.homeItem = index;
+    $(this).click(function() {
+        localStorage.homeItem = index;
+    })
 })

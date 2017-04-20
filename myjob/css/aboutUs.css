@@ -210,7 +210,7 @@
     }
     .part2_middle_r2 {
         position: absolute;
-        bottom: 60px;
+        bottom: 0px;
         left: 0;
         width: 180px;
         height: 180px;
@@ -219,6 +219,9 @@
         border-right: 4px solid #2484fb;
         line-height: 25px;
         padding: 8px;
+    }
+    .arrow2{
+        text-align:left;
     }
     .part2_bottom_l {
         float: left;
@@ -453,7 +456,7 @@
     }
     .part2_middle_r2 {
         position: absolute;
-        bottom: 60px;
+        bottom: 0px;
         left: 0;
         width: 180px;
         height: 180px;
@@ -462,6 +465,9 @@
         border-right: 4px solid #2484fb;
         line-height: 25px;
         padding: 8px;
+    }
+    .arrow2{
+        text-align:left;
     }
     .part2_bottom_l {
         float: left;

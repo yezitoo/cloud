@@ -22,7 +22,7 @@
     .wrap {
         width: 990px;
         margin: 0 auto;
-        padding: 100px 60px;
+        padding: 60px 60px 100px 60px;
         background-color: #fff;
         box-sizing: border-box;
         overflow: hidden;
@@ -118,7 +118,7 @@
     .wrap {
         width: 720px;
         margin: 0 auto;
-        padding: 100px 60px;
+        padding: 60px 60px 100px 60px;
         background-color: #fff;
         box-sizing: border-box;
         overflow: hidden;

@@ -232,7 +232,7 @@
         width: 10rem;
         float: left;
         color: #fff;
-        padding-top: 1rem;
+        padding-top: 3rem;
         padding-left: 1rem;
         box-sizing: border-box;
     }
@@ -247,7 +247,7 @@
         line-height: 1.4rem;
     }
     .part1_bigfont {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         margin-bottom: 1rem;
     }
     .part2 {

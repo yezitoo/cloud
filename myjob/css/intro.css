@@ -571,6 +571,7 @@
         font-size: 1rem;
         position: absolute;
         bottom: 0rem;
+        color:#fff;
     }
     .part3_i {
         width: 19rem;
@@ -716,7 +717,7 @@
         margin: 0 auto;
     }
     .part5_where img {
-        width: 9rem;
+        width: 19rem;
     }
     .part5_i div {
         width: 7rem;

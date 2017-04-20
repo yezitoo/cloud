@@ -24,6 +24,10 @@
         padding: 50px 120px;
         box-sizing: border-box;
     }
+    .nav a{
+        color:#333;
+        text-decoration:none;
+    }
     .main {
         color: #2484fb;
     }

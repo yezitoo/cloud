@@ -199,7 +199,7 @@
         color: #2484fb;
     }
     .mes li:first-child {
-        margin-left: 34%;
+        margin-left: 15%;
     }
     .mes_about {
         display: none;
@@ -286,7 +286,6 @@
     }
     .tab_c {
         width: 90%;
-        height: 11.8rem;
         margin: 0 auto;
         position: relative;
         background-color: #090810;
@@ -297,7 +296,7 @@
     }
     .tab_c li {
         text-align: center;
-        padding: 4px 0px;
+        padding: 0.5rem 0rem;
     }
     .tab_c li a {
         text-decoration: none;

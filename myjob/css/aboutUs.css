@@ -80,7 +80,7 @@
     .part1_l2 {
         float: left;
         width: 55%;
-        height: 500px;
+        height: 525px;
         background-color: #6dd1eb;
         color: #fff;
         font-size: 36px;
@@ -100,7 +100,7 @@
     .part1_r2 {
         float: right;
         width: 45%;
-        height: 500px;
+        height: 525px;
         background-color: #fff;
         padding: 0px 25px;
         line-height: 32px;
@@ -163,11 +163,15 @@
         text-align: right;
         margin-right: 10px;
     }
+    .department1{
+        font-size: 24px;
+    }
     .department {
+        margin-top:24px;
         font-size: 24px;
     }
     .depart_job {
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .part2_middle_l {
         float: left;
@@ -249,6 +253,9 @@
         border-right: 4px solid #2484fb;
         line-height: 25px;
         padding: 8px;
+    }
+    .part2_bottom_l_mobile{
+        display:none;
     }
 }
 
@@ -329,7 +336,7 @@
         height: 460px;
         background-color: #6dd1eb;
         color: #fff;
-        font-size: 36px;
+        font-size: 32px;
         padding: 147px 0px 0px 46px;
         box-sizing: border-box;
     }
@@ -409,11 +416,15 @@
         text-align: right;
         margin-right: 10px;
     }
-    .department {
+    .department1{
         font-size: 24px;
     }
+    .department {
+        font-size: 24px;
+        margin-top:24px;
+    }
     .depart_job {
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .part2_middle_l {
         float: left;
@@ -495,6 +506,9 @@
         border-right: 4px solid #2484fb;
         line-height: 25px;
         padding: 8px;
+    }
+    .part2_bottom_l_mobile{
+        display:none;
     }
 }
 
@@ -606,6 +620,7 @@
     }
     .department {
         font-size: 1.125rem;
+        padding-top:1rem;
     }
     .depart_job {
         width: 15rem;
@@ -621,6 +636,7 @@
         width: 100%;
     }
     .part2_middle_l div {
+        font-size:0.9rem;
         width: 16rem;
         height: 12rem;
         border: 0.125rem solid #fff;
@@ -631,11 +647,10 @@
         margin-left: -8rem;
         box-sizing: border-box;
         line-height: 1.75rem;
-        padding: 0.5rem 1rem;
         text-align: center;
     }
     .part2_middle_l div .depart_job {
-        margin-top: 0.1rem;
+        /*padding-right:1.3rem;*/
     }
     .part2_middle_r {
         width: 19rem;
@@ -649,5 +664,8 @@
     }
     .part2_bottom_l img {
         width: 100%;
+    }
+    .part2_bottom_l_pad{
+        display:none;
     }
 }

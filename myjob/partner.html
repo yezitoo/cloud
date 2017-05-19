@@ -16,15 +16,14 @@
                 <p class="partner">合作伙伴</p>
                 <hr class="border_hr">
                 <hr class="partner_hr">
-                <div class="partner_list">
+                <!-- <div class="partner_list">
                     <div class="list_l"><img src="images/partner/logo_12.png" alt=""></div>
                     <div class="list_r">
                         <p class="title_detail">浙大医药管理服务有限公司</p>
                         <p class="cen_detail">为响应国家医药卫生体制改革、大健康产业发展和“+互联网”的政策导向，由浙江大学圆正控股集团有限公司牵头并控股，于2014年成立了浙江浙大医药管理服务有限公司。参与股东包括著名的互联网信息服务企业：浙大网新公司，专业化的药学管理服务企业：江苏红石医药管理服务有限公司，以及多年来有着国际广泛交流的、从事专业化药事管理服务的经营管理团队。</p> 
                     </div>
-                </div>
-
-                <div class="partner_list">
+                </div> -->
+                <!-- <div class="partner_list">
                     <div class="list_l"><img src="images/partner/logo_11.png" alt=""></div>
                     <div class="list_r">
                         <p class="title_detail">海南天煌制药有限公司</p>
@@ -117,11 +116,28 @@
                         <p class="title_detail">网新新云联技术有限公司</p>
                         <p class="cen_detail">网新新云联技术有限公司是浙大网新于2014年筹建的一家专注于云服务构建和应用的公司。公司提供专业基础云服务和应用层的云解决方案，以物联网、移动互联网和O2O新型电子商务为典型应用场景，充分整合跨界资源，致力于打造全球领先的云服务提供商。</p> 
                     </div>
-                </div>
+                </div> -->
             </div>
         </article>
         <script src="js/foot.js"></script>
     </div>
+    <script src="js/jquery.min.js"></script>
+    <script>
+    $.ajax({
+        type: "GET",
+        url: "http://test.e-care.com.cn/zjuchWeb/partners",
+        data: {"length": 10,"page": 1},
+        success: function(msg) {
+            $.each(msg.data.partners, function(index, value) {
+                var str = '<div class="partner_list">\
+                    <div class="list_l"><img src="' + value.image + '" alt=""></div>\
+                    <div class="list_r"><p class="title_detail">' + value.title + '</p>\
+                        <p class="cen_detail">' + value.content + '</p></div></div>';
+                $(".wrap").append(str);
+            });
+        }
+    })
+    </script>
 </body>
 
 </html>

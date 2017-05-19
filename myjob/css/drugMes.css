@@ -159,6 +159,9 @@
     .weapon_left_mobile_i2 {
         display: none;
     }
+    .weapon_til_mobile_i {
+        display: none;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:1024px) {
@@ -255,9 +258,10 @@
         text-align: center;
     }
     .weapon_til_i {
-        margin: 60px 0px 40px 0px;
+        margin: 60px 0px 0px 0px;
     }
     .weapon_til_i img {
+        display: block;
         width: 100%;
     }
     .weapon_left {
@@ -297,6 +301,9 @@
         display: none;
     }
     .weapon_right_pc_i {
+        display: none;
+    }
+    .weapon_til_i .weapon_til_mobile_i {
         display: none;
     }
 }
@@ -377,7 +384,7 @@
         text-decoration: none;
         text-align: center;
     }
-     .weapon {
+    .weapon {
         padding: 1rem 0rem 0rem 0rem;
     }
     .weapon_til1 {
@@ -427,6 +434,9 @@
         display: none;
     }
     .weapon_right_pc_i {
+        display: none;
+    }
+    .weapon_til_pc_i {
         display: none;
     }
 }

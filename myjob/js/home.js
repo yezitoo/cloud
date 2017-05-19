@@ -19,3 +19,32 @@ $(".news1_r3 .more").each(function(index, item) {
         localStorage.homeItem = index;
     })
 })
+
+
+//获取行业动态数据
+$.ajax({
+    type: "GET",
+    url: "/zjuchWeb/news",
+    data: { "length": 5, "page": 1 },
+    dataType:'jsonp',
+    success: function(msg) {
+        $.each(msg.data.news,function(index,value){
+           var str='<li><a href="'+value.url+'">['+value.date+']'+value.title+'</a></li>';
+           $("#industry ul").append(str);
+        })
+    }
+})
+
+//获取易臻云动态数据
+$.ajax({
+    type: "GET",
+    url: "/zjuchWeb/ecareNews",
+    data: { "length": 5, "page": 1 },
+    dataType:'jsonp',
+    success: function(msg) {
+        $.each(msg.data.news,function(index,value){
+           var str='<li><a href="/detail.html?id='+value.id+'">['+value.date+']'+value.title+'</a></li>';
+           $("#yizhenyun ul").append(str);
+        })
+    }
+})

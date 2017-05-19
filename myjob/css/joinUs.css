@@ -48,7 +48,7 @@
         border-right: 3px solid #2484fb;
         border-bottom: 3px solid #2484fb;
         line-height: 32px;
-        padding: 0px 0px 15px 30px;
+        padding: 0px 6px 15px 15px;
         box-sizing: border-box;
     }
     .part1_r_mes p {
@@ -130,12 +130,14 @@
         float: left;
     }
     .part1_r_mes {
+        font-size:14px;
         width: 95%;
+        height:235px;
         border-top: 3px solid #2484fb;
         border-right: 3px solid #2484fb;
         border-bottom: 3px solid #2484fb;
         line-height: 24px;
-        padding: 0px 0px 5px 15px;
+        padding:16px;
         box-sizing: border-box;
     }
     .part1_r_mes p {

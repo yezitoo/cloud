@@ -23,9 +23,9 @@ $(function() {
     // 行业动态5条
     $.ajax({
         type: "GET",
-        url: "/zjuchWeb/news",
+        url: "http://test.e-care.com.cn/zjuchWeb/news",
         data: { "length": 5, "page": 1 },
-        dataType:'jsonp',
+        // dataType:'jsonp',
         success: function(msg) {
             $.each(msg.data.news, function(index, value) {
                 var str = '<div class="trends_list "> <div class = "list_l" ><img src = "images/trends/Inews_01.png" />\
@@ -40,9 +40,9 @@ $(function() {
     // 易臻云动态5条
     $.ajax({
         type: "GET",
-        url: "/zjuchWeb/ecareNews",
+        url: "http://test.e-care.com.cn/zjuchWeb/ecareNews",
         data: { "length": 5, "page": 1 },
-        dataType:'jsonp',
+        // dataType:'jsonp',
         success: function(msg) {
             // debugger
             $.each(msg.data.news, function(index, value) {
@@ -63,9 +63,9 @@ $("#industry").click(function() {
     num = num + 1;
     $.ajax({
         type: "GET",
-        url: "/zjuchWeb/news",
+        url: "http://test.e-care.com.cn/zjuchWeb/news",
         data: { "length": 5, "page": num },
-        dataType:'jsonp',
+        // dataType:'jsonp',
         success: function(msg) {
             // debugger
             if (msg.data.news.length >= 1) {
@@ -89,9 +89,9 @@ $("#yizhenyun").click(function() {
     num = num + 1;
     $.ajax({
         type: "GET",
-        url: "/zjuchWeb/ecareNews",
+        url: "http://test.e-care.com.cn/zjuchWeb/ecareNews",
         data: { "length": 5, "page": num },
-        dataType:'jsonp',
+        // dataType:'jsonp',
         success: function(msg) {
             // debugger
             if (msg.data.news.length >= 1) {

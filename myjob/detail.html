@@ -37,11 +37,11 @@
     var idnum = (window.location.search).substr(4);
     $.ajax({
         type: "GET",
-        url: "/zjuchWeb/ecareNewsDetail",
+        url: "http://test.e-care.com.cn/zjuchWeb/ecareNewsDetail",
         data: {
             "id": idnum
         },
-        dataType:'jsonp',
+        // dataType:'jsonp',
         success: function(msg) {
             $(".partner").html(msg.data.news.title);
             $("#date").html(msg.data.news.date);

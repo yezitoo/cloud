@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: 微软雅黑;
+    color: #333;
+    min-height: 100%;
+    position: relative;
+}
+
+@media screen and (min-width:1025px) {
+    .container {
+        padding-bottom: 510px;
+    }
+    .part1 {
+        position: relative;
+        height: 780px;
+    }
+    .part1_i {
+        width: 100%;
+        height: 80%;
+    }
+    .part1_i img {
+        width: 100%;
+        height: 90%;
+    }
+    .part1_mes {
+        width: 990px;
+        overflow: hidden;
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        margin-left: -495px;
+    }
+    .part1_mes_l {
+        width: 40%;
+        float: left;
+    }
+    .part1_mes_l img {
+        width: 100%;
+    }
+    .part1_mes_mobile_l {
+        display: none;
+    }
+    .part1_mes_r {
+        width: 60%;
+        float: left;
+        color: #fff;
+        padding-top: 180px;
+    }
+    .part1_mes_r img {
+        display: block;
+        width: 110px;
+        height: 110px;
+        float: left;
+    }
+    .part1_mes_r div {
+        float: left;
+        width: 370px;
+        padding: 58px 0px 0px 20px;
+    }
+    .part1_bigfont {
+        font-size: 50px;
+        margin-bottom: 45px;
+    }
+    .scan {
+        margin-bottom: 10px;
+    }
+    .part2 {
+        width: 990px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 10px 0px 115px 0px;
+    }
+    .part2_l {
+        width: 45%;
+        float: left;
+    }
+    .left_t {
+        line-height: 32px;
+    }
+    .left_b {
+        line-height: 32px;
+        margin-top: 40px;
+    }
+    .part2_mobile_r {
+        display: none;
+    }
+    .part2_r {
+        width: 55%;
+        float: left;
+    }
+    .part2_r img {
+        width: 100%;
+    }
+    .part_til1,
+    .part_til2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .container {
+        padding-bottom: 460px;
+    }
+    .part1 {
+        width: 100%;
+        position: relative;
+        height: 565px;
+    }
+    .part1_i {
+        ` width: 100%;
+        height: 70%;
+    }
+    .part1_i img {
+        width: 100%;
+        height: 100%;
+    }
+    .part1_mes {
+        width: 720px;
+        overflow: hidden;
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        margin-left: -360px;
+    }
+    .part1_mes_l {
+        width: 40%;
+        float: left;
+    }
+    .part1_mes_l img {
+        width: 100%;
+    }
+    .part1_mes_mobile_l {
+        display: none;
+    }
+    .part1_mes_r {
+        width: 60%;
+        float: left;
+        color: #fff;
+        padding-top: 90px;
+    }
+    .part1_mes_r img {
+        display: block;
+        width: 20%;
+        float: left;
+    }
+    .part1_mes_r div {
+        float: left;
+        width: 75%;
+        padding: 14px 0px 0px 10px;
+    }
+    .part1_bigfont {
+        font-size: 40px;
+        margin-bottom: 45px;
+    }
+    .scan {
+        margin-bottom: 10px;
+    }
+    .part2 {
+        width: 720px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 10px 0px 60px 0px;
+        font-size:14px;
+    }
+    .part2_l {
+        width: 45%;
+        float: left;
+    }
+    .left_t {
+        line-height: 28px;
+    }
+    .left_b {
+        line-height: 28px;
+        margin-top: 20px;
+    }
+    .part2_mobile_r {
+        display: none;
+    }
+    .part2_r {
+        width: 55%;
+        float: left;
+    }
+    .part2_r img {
+        width: 100%;
+    }
+    .part_til1,
+    .part_til2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .container {
+        padding-bottom: 23.75rem;
+    }
+    .part1 {
+        width: 20rem;
+        position: relative;
+        height: 22rem;
+    }
+    .part1_i {
+        width: 20rem;
+    }
+    .part1_i img {
+        width: 20rem;
+        height: 15rem;
+    }
+    .part1_mes {
+        width: 19rem;
+        overflow: hidden;
+        position: absolute;
+        top: 2.25rem;
+        left: 50%;
+        margin-left: -9.5rem;
+    }
+    .part1_mes_l {
+        display: none;
+    }
+    .part1_mes_mobile_l {
+        width: 9rem;
+        float: left;
+    }
+    .part1_mes_mobile_l img {
+        width: 9rem;
+    }
+    .part1_mes_r {
+        width: 10rem;
+        float: left;
+        color: #fff;
+        padding-top: 3rem;
+        padding-left: 1rem;
+        box-sizing: border-box;
+    }
+    .part1_mes_r img {
+        display: block;
+        width: 4rem;
+    }
+    .part1_mes_r div {
+        font-size: 0.725rem;
+        color: #333;
+        padding-top: 1rem;
+        line-height: 1.4rem;
+    }
+    .part1_bigfont {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .part2 {
+        width: 19rem;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 1rem 0rem 2rem 0rem;
+        font-size: 0.925rem;
+    }
+    .part2_l {
+        width: 19rem;
+    }
+    .left_t {
+        line-height: 2rem;
+        margin-top: 0.5rem;
+    }
+    .left_b {
+        line-height: 2rem;
+        margin-top: 0.5rem;
+    }
+    .part2_mobile_r {
+        width: 19rem;
+    }
+    .part2_mobile_r img {
+        width: 19rem;
+    }
+    .part2_r {
+        display: none;
+    }
+    .part_til1,
+    .part_til2 {
+        font-size: 1.375rem;
+        padding: 1rem 0rem;
+        text-align: center;
+    }
+}

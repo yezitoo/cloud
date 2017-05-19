@@ -1,0 +1,864 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: 微软雅黑;
+    position: relative;
+    min-height: 100%;
+    box-sizing: border-box;
+    color: #333;
+}
+
+@media screen and (min-width:1025px) {
+    .container {
+        padding-bottom: 510px;
+    }
+    .part1 .img {
+        width: 100%;
+        position: relative;
+    }
+    .img .pc_i {
+        width: 100%;
+        display: block;
+    }
+    .img .pad_i {
+        display: none;
+    }
+    .img .mobile_i{
+        display: none;
+    }
+    .part1 .tet {
+        color: #fff;
+        width: 31%;
+        height: 62.5%;
+        position: absolute;
+        top: 18%;
+        left: 20.5%;
+        line-height: 32px;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+    }
+    #t1 {
+        padding-bottom: 4%;
+    }
+    .part2 {
+        background-color: #eaedf2;
+        padding-bottom: 110px;
+    }
+    .til {
+        width: 211px;
+        margin: 0 auto;
+        padding: 94px 0px;
+    }
+    .til hr {
+        width: 84px;
+        border: 2px solid #2484fb;
+        margin: 15px auto;
+    }
+    .til p:nth-child(1) {
+        font-size: 30px;
+    }
+    .til p:nth-child(2) {
+        font-size: 20px;
+    }
+    .ter {
+        width: 990px;
+        height: 708px;
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .ter_t {
+        width: 314px;
+        height: 385px;
+        background-color: #fff;
+    }
+    .ter_t_i {
+        width: 100%;
+        position: relative;
+    }
+    .ter_t_i img:nth-child(1) {
+        width: 100%;
+        display: block;
+    }
+    .ter_t_i img:nth-child(2) {
+        width: 26%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .ter_t p:nth-child(2),
+    .ter_b_r p:nth-child(1) {
+        font-size: 18px;
+        color: #2484fb;
+        letter-spacing: 1px;
+        padding: 28px 12px 15px 12px;
+    }
+    .ter_t p:nth-child(3),
+    .ter_b_r p:nth-child(2) {
+        line-height: 26px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 0px 12px;
+    }
+    .ter_t_a {
+        text-align: right;
+        padding: 14px 14px 7px 0px;
+    }
+    .ter_t_a a {
+        width: 100%;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background: url(../images/home/home_icon_enter.png);
+    }
+    .ter_b {
+        width: 480px;
+        height: 294px;
+        background-color: #fff;
+    }
+    .ter_b_l {
+        width: 48%;
+        height: 296px;
+        float: left;
+        position: relative;
+    }
+    .ter_b_l img:nth-child(1) {
+        width: 100%;
+        height: 100%;
+    }
+    .ter_b_l .small_i{
+        height: 28%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .ter_b_l .mobile_i{
+        display:none;
+    }
+    .ter_b_r {
+        width: 52%;
+        float: left;
+        position: relative;
+    }
+    .ter_b_r a {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: url(../images/home/home_icon_enter.png);
+        position: absolute;
+        right: 0;
+        margin-right: 14px;
+        margin-bottom: 7px;
+    }
+    .news {
+        width: 990px;
+        margin: 0 auto;
+        font-size: 15px;
+        position: relative;
+        height: 868px;
+        margin-bottom: 180px;
+    }
+    .news1 {
+        width: 100%;
+        height: 487px;
+        position: absolute;
+        z-index: 1;
+    }
+    .news1_l {
+        width: 25%;
+        height: 150px;
+        float: left;
+        border-radius: 10px 0px 0px 10px;
+        background-color: #6dd1eb;
+        color: #fff;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 120px;
+    }
+    .news1_l i {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        background: url(../images/home/icon_industryNews.png);
+        background-size: 100% 100%;
+        margin-right: 12px;
+    }
+    .news1_r {
+        width: 75%;
+        height: 487px;
+        float: left;
+        position: relative;
+    }
+    .news1_r1,
+    .news1_r2,
+    .news1_r3 {
+        width: 682.5px;
+        height: 425px;
+        border: 1px solid #333;
+        position: absolute;
+        background-color: #fff;
+    }
+    .news1_r1 {
+        top: 0;
+        right: 0;
+        z-index: 1;
+    }
+    .news1_r2 {
+        top: 30px;
+        right: 30px;
+        z-index: 2;
+    }
+    .news1_r3 {
+        top: 60px;
+        right: 60px;
+        z-index: 3;
+    }
+    .news1_r3 ul {
+        padding: 20px 16px;
+    }
+    .news1_r3 ul li {
+        height: 60px;
+        line-height: 60px;
+        list-style: none;
+        border-bottom: 1px dashed #999999;
+        border-style: none none dashed none;
+        
+    }
+    .news1_r3 ul li a {
+        display:inline-block;
+        width:100%;
+        text-decoration: none;
+        color: #333;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+    }
+    .news1_r3 ul li a:hover {
+        color: #2484fb;
+    }
+    .news2 {
+        width: 75%;
+        height: 487px;
+        position: absolute;
+        z-index: 2;
+        top: 380px;
+    }
+    .news2_r {
+        width: 100%;
+        height: 487px;
+        position: absolute;
+    }
+     .new2_l2{
+        display:none;
+     }
+    .new2_l {
+        width: 33.3%;
+        height: 150px;
+        float: left;
+        border-radius: 0px 10px 10px 0px;
+        background-color: #6dd1eb;
+        color: #fff;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 216px;
+        position: absolute;
+        left: 100%;
+    }
+    .new2_l i {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        background: url(../images/home/icon_e-careNews.png);
+        background-size: 100% 100%;
+        margin-right: 12px;
+    }
+    .more {
+        display: inline-block;
+        width: 120px;
+        height: 50px;
+        line-height: 50px;
+        text-decoration: none;
+        color: #2484fb;
+        border: 2px solid #2484fb;
+        border-radius: 8px;
+        font-size: 16px;
+        text-align: center;
+        margin: 0px 0px 0px 527px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .container {
+        padding-bottom: 460px;
+    }
+    .part1 .img {
+        width: 100%;
+        position: relative;
+    }
+    .img .pc_i {
+        width: 100%;
+        display: none;
+    }
+    .img .pad_i {
+        width: 100%;
+        display: block;
+    }
+    .img .mobile_i{
+        display:none;
+    }
+    .part1 .tet {
+        display: none;
+        color: #fff;
+        width: 31%;
+        height: 62.5%;
+        position: absolute;
+        top: 18%;
+        left: 20.5%;
+        line-height: 32px;
+        letter-spacing: 1px;
+        /*display: flex;*/
+        align-items: center;
+    }
+    #t1 {
+        padding-bottom: 4%;
+    }
+    .part2 {
+        background-color: #eaedf2;
+        padding-bottom: 110px;
+    }
+    .til {
+        width: 211px;
+        margin: 0 auto;
+        padding: 94px 0px 50px 0px;
+    }
+    .til hr {
+        width: 84px;
+        border: 2px solid #2484fb;
+        margin: 15px auto;
+    }
+    .til p:nth-child(1) {
+        font-size: 30px;
+    }
+    .til p:nth-child(2) {
+        font-size: 16px;
+    }
+    .ter {
+        width: 720px;
+        height: 865px;
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .ter_t {
+        width: 230px;
+        height: 394px;
+        background-color: #fff;
+        position: relative;
+    }
+    .ter_t_i {
+        width: 100%;
+        position: relative;
+    }
+    .ter_t_i img:nth-child(1) {
+        width: 100%;
+        display: block;
+    }
+    .ter_t_i img:nth-child(2) {
+        width: 26%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .ter_t p:nth-child(2) {
+        font-size: 16px;
+        color: #2484fb;
+        letter-spacing: 1px;
+        padding: 28px 12px 15px 12px;
+    }
+    .ter_b_r p:nth-child(1) {
+        font-size: 16px;
+        color: #2484fb;
+        letter-spacing: 1px;
+        padding: 28px 12px 15px 12px;
+
+    }
+    .ter_t p:nth-child(3),
+    .ter_b_r p:nth-child(2) {
+        line-height: 26px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 0px 12px;
+    }
+    .ter_t_a {
+        position: absolute;
+        text-align: right;
+        bottom: 16px;
+        right: 14px;
+    }
+    .ter_t_a a {
+        width: 100%;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background: url(../images/home/home_icon_enter.png);
+    }
+    .ter_b {
+        width: 352px;
+        height: 453px;
+        background-color: #fff;
+    }
+    .ter_b_l {
+        position: relative;
+    }
+    .ter_b_l .mobile_i{
+        width:100%;
+    }
+    .ter_b_l img:nth-child(1) {
+        width: 100%;
+        height: 100%;
+    }
+    .ter_b_l .small_i{
+        height: 28%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .ter_b_l .pc_i{
+        display:none;
+    }
+    .ter_b_r {
+        position: relative;
+    }
+    .ter_b_r a {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: url(../images/home/home_icon_enter.png);
+        position: absolute;
+        right: 0;
+        margin-right: 14px;
+        margin-bottom: 7px;
+    }
+    .news {
+        width: 720px;
+        margin: 0 auto;
+        font-size: 13px;
+        position: relative;
+        height: 767px;
+        margin-bottom: 57px;
+    }
+    .news1 {
+        width: 100%;
+        height: 487px;
+        position: absolute;
+        z-index: 1;
+    }
+    .news1_l {
+        width: 25%;
+        height: 120px;
+        float: left;
+        border-radius: 10px 0px 0px 10px;
+        background-color: #6dd1eb;
+        color: #fff;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 120px;
+    }
+    .news1_l i {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background: url(../images/home/icon_industryNews.png);
+        background-size: 100% 100%;
+        margin-right: 12px;
+    }
+    .news1_r {
+        width: 75%;
+        height: 487px;
+        float: left;
+        position: relative;
+    }
+    .news1_r1,
+    .news1_r2,
+    .news1_r3 {
+        width: 509px;
+        height: 390px;
+        border: 1px solid #333;
+        position: absolute;
+        background-color: #fff;
+    }
+    .news1_r1 {
+        top: 0;
+        right: 0;
+        z-index: 1;
+    }
+    .news1_r2 {
+        top: 15px;
+        right: 15px;
+        z-index: 2;
+    }
+    .news1_r3 {
+        top: 30px;
+        right: 30px;
+        z-index: 3;
+    }
+    .news1_r3 ul {
+        padding: 20px 16px;
+    }
+    .news1_r3 ul li {
+        height: 55px;
+        line-height: 55px;
+        list-style: none;
+        border-bottom: 1px dashed #999999;
+        border-style: none none dashed none;
+        
+    }
+    .news1_r3 ul li a {
+        display:inline-block;
+        width:100%;
+        text-decoration: none;
+        color: #333;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+    }
+    .news1_r3 ul li a:hover {
+        color: #2484fb;
+    }
+    .news2 {
+        width: 75%;
+        height: 487px;
+        position: absolute;
+        z-index: 2;
+        top: 344px;
+    }
+    .news2_r {
+        width: 100%;
+        height: 487px;
+        position: absolute;
+    }
+    .new2_l2{
+        display:none;
+    }
+    .new2_l {
+        width: 33.3%;
+        height: 120px;
+        float: left;
+        border-radius: 0px 10px 10px 0px;
+        background-color: #6dd1eb;
+        color: #fff;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 216px;
+        position: absolute;
+        left: 100%;
+    }
+    .new2_l i {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background: url(../images/home/icon_e-careNews.png);
+        background-size: 100% 100%;
+        margin-right: 8px;
+    }
+    .more {
+        display: inline-block;
+        width: 89px;
+        height: 45px;
+        line-height: 45px;
+        text-decoration: none;
+        color: #2484fb;
+        border: 2px solid #2484fb;
+        border-radius: 8px;
+        font-size: 14px;
+        text-align: center;
+        margin: 0px 0px 0px 385px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .container {
+        padding-bottom: 23.75rem;
+     }
+    article {
+        width: 19rem;
+        margin: 0 auto;
+        font-size: 0.875rem;
+    }
+    .part1 .img {
+        width: 19rem;
+        position: relative;
+    }
+    .img .pc_i {
+        width: 100%;
+        display: none;
+    }
+    .img .pad_i {
+        width: 100%;
+        display: none;
+    }
+    .img .mobile_i {
+        display: block;
+        width: 100%;
+    }
+    .part1 .tet {
+        height: 16rem;
+        line-height: 1.5rem;
+    }
+    #t1 {
+        padding: 0.6rem 0rem 0.5rem 0rem;
+        color: #2484fb;
+        font-size: 1rem;
+        text-align: center;
+    }
+    #t2 {
+        letter-spacing: 0.0625rem;
+    }
+    .til {
+        color: #2484fb;
+        text-align: center;
+        padding: 1rem 0rem 0rem 0rem;
+    }
+    .til hr {
+        width: 3rem;
+        border: 0.125rem solid #2484fb;
+        margin: 1rem auto;
+    }
+    .til p:nth-child(1) {
+        font-size: 1.2rem;
+    }
+    .til p:nth-child(3) {
+        display: none;
+        font-size: 1rem;
+    }
+    .ter {
+        width: 19rem;
+    }
+    .ter_t {
+        margin-top: 1rem;
+        height: 22.6rem;
+        background-color: #fff;
+        position: relative;
+        border-bottom: 0.0625rem solid #cccccc;
+    }
+    .ter_t_i {
+        width: 100%;
+        position: relative;
+    }
+    .ter_t_i img:nth-child(1) {
+        width: 100%;
+        display: block;
+    }
+    .ter_t_i img:nth-child(2) {
+        width: 26%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .ter_t p:nth-child(2) {
+        font-size: 1rem;
+        color: #2484fb;
+        letter-spacing: 0.0625rem;
+        padding: 1.75rem 0rem 0.93rem 0rem;
+    }
+    .ter_b_r p:nth-child(1) {
+        font-size: 1rem;
+        color: #2484fb;
+        letter-spacing: 0.0625rem;
+        padding: 0rem 0rem 0.93rem 0rem ;
+    }
+    .ter_t p:nth-child(3),
+    .ter_b_r p:nth-child(2) {
+        line-height: 1.625rem;
+        letter-spacing: 0.0625rem;
+        /*padding: 0rem 0.75rem;*/
+    }
+    .ter_t_a {
+        position: absolute;
+        text-align: right;
+        bottom: 0.6rem;
+        right: 0.3rem;
+    }
+    .ter_t_a a {
+        display: inline-block;
+        width: 1.9rem;
+        height: 1.9rem;
+        background: url(../images/home/home_icon_enter.png);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+    }
+    .ter_b {
+        width: 19rem;
+        height: 26rem;
+        background-color: #fff;
+        position: relative;
+        border-bottom: 0.0625rem solid #cccccc;
+        margin-top: 1rem;
+    }
+    .ter_b_l {
+        height: 11rem;
+        position: relative;
+    }
+    .ter_b_l .pc_i {
+        display: none;
+    }
+    .ter_b_l .mobile_i {
+        width: 19rem;
+    }
+    .ter_b_l .small_i {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .ter_b_r {
+        padding-top: 1.75rem;
+        position: relative;
+    }
+    .ter_b_r a {
+        display: block;
+        width: 1.9rem;
+        height: 1.9rem;
+        background: url(../images/home/home_icon_enter.png);
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+        position: absolute;
+        bottom: -2rem;
+        right: 0.3rem;
+    }
+    .news {
+        width: 19rem;
+        margin: 0 auto;
+        font-size: 0.82rem;
+        margin-top: 1rem;
+    }
+    .news1 {
+        width: 19rem;
+        height: 27.5rem;
+    }
+    .news1_l {
+        width: 19rem;
+        height: 5rem;
+        background-color: #6dd1eb;
+        color: #fff;
+        font-size: 1.375rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .news1_l i {
+        display: inline-block;
+        width: 3.125rem;
+        height: 3.125rem;
+        background: url(../images/home/icon_industryNews.png);
+        background-size: 100% 100%;
+        margin-right: 0.75rem;
+    }
+    .news1_r {
+        width: 19rem;
+        height: 17.5rem;
+    }
+    .news1_r3 {
+        width: 19rem;
+        height: 17.5rem;
+        /*border: 1px solid #333;*/
+        background-color: #fff;
+    }
+    .news1_r1 {
+        display: none;
+        top: 0;
+        right: 0;
+        z-index: 1;
+    }
+    .news1_r2 {
+        display: none;
+        top: 15px;
+        right: 15px;
+        z-index: 2;
+    }
+    .news1_r3 {
+        top: 0.93rem;
+        right: 0.93rem;
+    }
+    .news1_r3 ul li {
+        display: flex;
+        align-items: center;
+        height: 3.43rem;
+        list-style: none;
+        border-bottom: 0.0625rem solid #999999;
+        
+    }
+    .news1_r3 ul li a {
+        display:inline-block;
+        width:100%;
+        text-decoration: none;
+        color: #333;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+    }
+    .news1_r3 ul li a:hover {
+        color: #2484fb;
+    }
+    .news2 {
+        width: 19rem;
+        height: 27.5rem;
+    }
+    .news2_r {
+        width: 19rem;
+        height: 280px;
+    }
+    .new2_l{
+        display:none;
+    }
+    .new2_l2 {
+        width: 19rem;
+        height: 5rem;
+        background-color: #6dd1eb;
+        color: #fff;
+        font-size: 1.375rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .new2_l2 i {
+        display: inline-block;
+        width: 3.125rem;
+        height: 3.125rem;
+        background: url(../images/home/icon_e-careNews.png);
+        background-size: 100% 100%;
+        margin-right: 0.5rem;
+    }
+    .more {
+        display: inline-block;
+        width: 5.56rem;
+        height: 2.8rem;
+        line-height: 2.8rem;
+        text-decoration: none;
+        color: #2484fb;
+        border: 0.125rem solid #2484fb;
+        border-radius: 0.5rem;
+        font-size: 0.875rem;
+        text-align: center;
+        margin: 1rem 0rem 0rem 13rem;
+
+    }
+}
